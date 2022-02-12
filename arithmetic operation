@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b;
+    char c;
+    printf (" enter the operation to be done among +,-,*,/,%% ");
+    scanf ("%c",&c);
+    printf("enter 2 numbers to be operated with a space");
+    scanf("%d %d",&a,&b);
+    switch(c)
+    {
+    case ('+'):
+    printf("%d + %d = %d",a,b,a+b);
+    break;
+    case ('-'):
+    printf("%d - %d = %d",a,b,a-b);
+    break;
+    case ('*'):
+    printf ("%d * %d = %d",a,b,a*b);
+    break;
+    case ('/'):
+    printf("%d / %d = %d",a,b,a/b);
+    break;
+    case ('%'):
+    printf("%d %% %d = %d",a,b,a%b);
+    break;
+    default:
+    printf("invalid operator ");
+    }
+    return 0;
+
+}
