@@ -1,0 +1,16 @@
+#include<stdio.h>
+#define PI 3.14
+
+int main()
+{
+double r,a,circumference,dia;
+printf("enter the radius");
+scanf("%lf",&r);
+a=PI*r*r;
+dia= r*2;
+circumference =2*PI*r;
+printf("area is %lf \n",a);
+printf("diameter is %lf \n",dia);
+printf ("circumference is %lf \n", circumference);
+ return 0;
+}
